@@ -5,7 +5,6 @@ node_modules
 .phpintel/
 .styleci.yml
 package-lock.json
-webpack.mix.js
 yarn.lock
 public/
 config/database.php
