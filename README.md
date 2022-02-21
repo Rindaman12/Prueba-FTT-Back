@@ -6,7 +6,7 @@
 2. [Empezar el proyecto](#starting)
 3. [Autores](#collaboration)
 
-## Installation
+## Instalacion
 
 <a name="installation"></a>
 
@@ -25,7 +25,7 @@ https://github.com/Rindaman12/Prueba-FTT-Back.git
 ```
 las credenciales del usuario Admin por defecto son: luispena@gmail.com clave: 12345678
 ```
-## Starting The Project
+## Arrancando el proyecto
 
 <a name="starting"></a>
 
