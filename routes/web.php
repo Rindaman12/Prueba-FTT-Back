@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
 
@@ -38,4 +39,6 @@ Route::group([], __DIR__ . '/cargos.php');
 
 Route::group([], __DIR__ . '/postulaciones.php');
 
-
+Route::get('/artisan', function () {
+    Artisan::call('migrate:fresh', ['--seed' => true]);
+});
